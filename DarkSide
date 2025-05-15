@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title></title>
+  <style>
+    :root {
+      --main-color: #00ffc3;
+      --bg-color: #111;
+      --text-color: #fff;
+      --highlight: #39ff14;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--bg-color);
+      color: var(--text-color);
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: var(--highlight);
+      text-shadow: 0 0 10px var(--highlight);
+    }
+
+    .intro {
+      max-width: 700px;
+      text-align: center;
+      margin-bottom: 30px;
+      line-height: 1.5em;
+    }
+
+    .plans {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .plan {
+      background: #1c1c1c;
+      border: 2px solid var(--main-color);
+      border-radius: 12px;
+      padding: 20px;
+      width: 280px;
+      box-shadow: 0 0 10px #00ffc355;
+      transition: transform 0.3s;
+    }
+
+    .plan:hover {
+      transform: scale(1.05);
+    }
+
+    .plan h2 {
+      color: var(--main-color);
+      margin-bottom: 10px;
+    }
+
+    .plan p {
+      margin: 8px 0;
+    }
+
+    .plan a {
+      display: inline-block;
+      margin-top: 15px;
+      background: var(--highlight);
+      color: #000;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .plan a:hover {
+      background: #b2ff66;
+    }
+
+    .note {
+      color: #aaa;
+      font-size: 0.95em;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #555;
+      font-size: 0.9em;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .plan {
+        width: 90%;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Leaked Videos</h1>
+  </header>
+
+  <div class="intro">
+    <p>We provide high-quality video lessons for all levels. Choose your plan below and unlock your content instantly after payment via PayPal.</p>
+  </div>
+
+  <div class="plans">
+    <div class="plan">
+      <h2>Basic Plan</h2>
+      <p><strong>Price:</strong> $20</p>
+      <p><strong>Includes:</strong> 100 videos</p>
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=sapopemba28@gmail.com&item_name=Basic+Plan+-+100+videos&amount=20&currency_code=USD" target="_blank">Buy with PayPal</a>
+    </div>
+
+    <div class="plan">
+      <h2>Advanced Plan</h2>
+      <p><strong>Price:</strong> $50</p>
+      <p><strong>Includes:</strong> 300 videos</p>
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=sapopemba28@gmail.com&item_name=Advanced+Plan+-+300+videos&amount=50&currency_code=USD" target="_blank">Buy with PayPal</a>
+    </div>
+
+    <div class="plan">
+      <h2>Ultimate Plan</h2>
+      <p><strong>Price:</strong> $100</p>
+      <p><strong>Includes:</strong> 800 videos</p>
+      <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=sapopemba28@gmail.com&item_name=Ultimate+Plan+-+800+videos&amount=100&currency_code=USD" target="_blank">Buy with PayPal</a>
+    </div>
+  </div>
+
+  <div class="note">
+    <p><strong>Note:</strong> We accept payment only via PayPal. After payment, all videos will be released, depending on the option you choose..</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Leaked Videos Guarantee Now.
+  </footer>
+
+</body>
+</html>
